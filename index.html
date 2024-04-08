@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator App</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="calculator">
+            <div class="sub-container">
+                <div class="display-box">
+                    <div class="input"></div>
+                    <div class="output"></div>
+                </div>
+                <div class="buttons-container">
+                    <button type="button" data-key="clear" class="button action ac">
+                        <span>AC</span>
+                    </button>
+
+                    <button type="button" data-key="delete" class="button action del">
+                        <i class="fa-solid fa-delete-left"></i>
+                    </button>
+
+                    <button type="button" data-key="%" class="button action">
+                        <span>%</span>
+                    </button>
+
+                    <button type="button" data-key="/" class="button operator">
+                        <span>&divide;</span>
+                    </button>
+
+                    <button type="button" data-key="7" class="button">
+                        <span>7</span>
+                    </button>
+
+                    <button type="button" data-key="8" class="button">
+                        <span>8</span>
+                    </button>
+
+                    <button type="button" data-key="9" class="button">
+                        <span>9</span>
+                    </button>
+
+                    <button type="button" data-key="*" class="button operator">
+                        <span>&times;</span>
+                    </button>
+
+                    <button type="button" data-key="4" class="button">
+                        <span>4</span>
+                    </button>
+
+                    <button type="button" data-key="5" class="button">
+                        <span>5</span>
+                    </button>
+
+                    <button type="button" data-key="6" class="button">
+                        <span>6</span>
+                    </button>
+
+                    <button type="button" data-key="-" class="button operator">
+                        <span>-</span>
+                    </button>
+
+                    <button type="button" data-key="1" class="button">
+                        <span>1</span>
+                    </button>
+
+                    <button type="button" data-key="2" class="button">
+                        <span>2</span>
+                    </button>
+
+                    <button type="button" data-key="3" class="button">
+                        <span>3</span>
+                    </button>
+
+                    <button type="button" data-key="+" class="button operator">
+                        <span>+</span>
+                    </button>
+
+                    <button type="button" data-key="." class="button">
+                        <span>.</span>
+                    </button>
+
+                    <button type="button" data-key="0" class="button">
+                        <span>0</span>
+                    </button>
+
+                    <button type="button" data-key="=" class="button operator equal">
+                        <span>= </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
